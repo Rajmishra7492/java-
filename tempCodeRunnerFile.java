@@ -1,2 +1,1 @@
-String st = sc.nextLine();
-    System.out.println(st);
+package com.company;
