@@ -1,1 +1,1 @@
-MymainEmploy raj = new MymainEmploy("rajmishra", 12);
+Derived1 d = new Derived1();
