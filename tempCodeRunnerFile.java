@@ -1,1 +1,1 @@
- System.out.print(flats[i][j]);
+MymainEmploy raj = new MymainEmploy("rajmishra", 12);
