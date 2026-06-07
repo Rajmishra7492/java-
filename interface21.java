@@ -8,9 +8,11 @@ class Avoncycle implements bicylce{
         System.out.println(" pee , pee , pee");
 
     }
+    @Override
     public void applyBreak(int decrement){
         System.out.println("applying break");
     }
+    @Override
     public void SpeedUp(int increament){
         System.out.println("applyyin spped up");
     }

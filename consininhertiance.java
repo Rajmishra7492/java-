@@ -43,16 +43,17 @@ class Derived1 extends base1 {
     }
 
 }
-class childofDerived1 extends Derived1{
+
+class childofDerived1 extends Derived1 {
     public childofDerived1() {
         System.out.println("im a an overloaded condtruction of childofderived with value of z as:");
     }
+
     public childofDerived1(int x, int y, int z) {
-        super (x,y);
+        super(x, y);
         System.out.println("im a an overloaded condtruction of derived with value of z as:" + z);
+    }
 }
-}
-    
 
 public class consininhertiance {
 
