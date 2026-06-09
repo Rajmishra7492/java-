@@ -1,3 +1,5 @@
+
+
 abstract class parent2 {
     public parent2() {
         System.out.println("mai base33 ka conturctor hun");
