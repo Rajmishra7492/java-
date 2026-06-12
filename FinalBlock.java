@@ -1,5 +1,3 @@
-package com.company;
-
 public class FinalBlock {
     public static int greet(){
         try{
