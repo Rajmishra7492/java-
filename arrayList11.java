@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class arrayList {
+public class arrayList11 {
     public static void main(String[] args) {
         // ARRAY LIST: An ArrayList in Java is a resizable, dynamic array that implements the List interface.
         //An ArrayList is like a resizable array
