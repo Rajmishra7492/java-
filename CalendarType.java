@@ -1,5 +1,5 @@
 import java.util.Calendar;
-// calaender is a abstract class
+import java.util.GregorianCalendar;
 
 public class CalendarType {
     public static void main(String[] args) {
@@ -12,5 +12,7 @@ public class CalendarType {
         System.out.println(c.get(Calendar.HOUR));
 
         System.out.println(c.get(Calendar.HOUR_OF_DAY)+ ":" +c.get(Calendar.MINUTE)+ ":"+ c.get(Calendar.SECOND));
+         GregorianCalendar cal = new GregorianCalendar();
+        System.out.println(cal.isLeapYear(2024));
     }
 }
