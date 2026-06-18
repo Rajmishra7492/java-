@@ -1,5 +1,6 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 public class CalendarType {
     public static void main(String[] args) {
@@ -14,5 +15,10 @@ public class CalendarType {
         System.out.println(c.get(Calendar.HOUR_OF_DAY)+ ":" +c.get(Calendar.MINUTE)+ ":"+ c.get(Calendar.SECOND));
          GregorianCalendar cal = new GregorianCalendar();
         System.out.println(cal.isLeapYear(2024));
+        System.out.println(c.getAvailableCalendarTypes());
+        System.out.println(TimeZone.getAvailableIDs()[0]);
+        System.out.println(TimeZone.getAvailableIDs()[1]);
+        System.out.println(TimeZone.getAvailableIDs()[2]);
+        System.out.println(TimeZone.getAvailableIDs()[3]);
     }
 }
