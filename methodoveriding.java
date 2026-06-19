@@ -23,7 +23,7 @@ public class methodoveriding {
 
         B b = new B();
         b.meth3();
-        //   System.out.println();
+          System.out.println();
     }
   
 }
